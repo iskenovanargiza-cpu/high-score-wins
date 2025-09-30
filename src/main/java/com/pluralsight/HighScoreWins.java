@@ -16,8 +16,8 @@ public class HighScoreWins {
         String team1 = splitTeams[0];
         String team2 = splitTeams[1];
 
-        int score1 = Integer.parseInt(splitScores[2]);
-        int score2 = Integer.parseInt(splitScores[3]);
+        int score1 = Integer.parseInt(splitScores[0]);
+        int score2 = Integer.parseInt(splitScores[1]);
 
         if (score1 > score2) {
             System.out.printf("Winner: %s ", team1);
